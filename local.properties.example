@@ -1,0 +1,15 @@
+# Copy this file to local.properties and set sdk.dir to your Android SDK path.
+# Example (Windows):   sdk.dir=C:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+# Example (macOS):     sdk.dir=/Users/yourname/Library/Android/sdk
+# Example (Linux):     sdk.dir=/home/yourname/Android/Sdk
+#
+# If you installed Android Studio, the SDK is usually at:
+#   Windows: %LOCALAPPDATA%\\Android\\Sdk
+#   macOS:   ~/Library/Android/sdk
+sdk.dir=C\:\\Users\\YourName\\AppData\\Local\\Android\\Sdk
+#
+# Optional: override API base URLs for development (e.g. local or staging).
+# Add these to gradle.properties (in project root) instead, so they are picked up:
+#   API_BASE_URL=http://10.0.2.2:8080/
+#   AUTH_BASE_URL=http://10.0.2.2:8080/
+# (10.0.2.2 is the emulator's alias for your machine's localhost.)

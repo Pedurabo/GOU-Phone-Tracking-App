@@ -1,46 +1,40 @@
-﻿# GOU-Phone-Tracking-App
-# 📍 GOU Phone Tracking App
+# GOU Phone Tracking App
 
-**GOU Phone Tracking App** is a mobile security and device tracking system designed to help users locate, monitor, and secure their smartphones in case of loss or theft. It provides real-time location tracking and remote security features to improve device safety and recovery.
+Android-based **device security and anti-theft** application.
 
----
+Provides real-time location tracking, remote device management, and protection features to help users locate and secure their smartphones if lost or stolen.
 
-## 📱 Overview
+## Features
+- Real-time GPS location tracking
+- Live map view of device location
+- Remote alarm (ring even when on silent)
+- Remote device lock
+- Optional front-camera capture on unauthorized access
+- Location history
+- Cloud synchronization
+- Secure authentication
 
-The GOU Phone Tracking App uses GPS and cloud-based synchronization to track device location in real time. It allows users to remotely view their phone’s location, trigger alerts, and secure their device when it is lost or stolen.
+## Tech Stack
+- **Language:** Kotlin / Java
+- **UI:** Jetpack Compose or XML
+- **Backend:** Firebase (Realtime Database / Firestore, Authentication, Cloud Messaging)
+- **Maps & Location:** Google Maps API, Fused Location Provider
+- **Platform:** Android
 
-This project focuses on mobile security, anti-theft protection, and real-time tracking.
+## Architecture Overview
+- Mobile client handles location updates, UI, and remote command reception
+- Firebase manages authentication, real-time data sync, and push notifications
+- Google Maps displays live and historical locations
 
----
+## Getting Started
+1. Clone the repository
+2. Open in Android Studio
+3. Add your Firebase `google-services.json`
+4. Configure Google Maps API key
+5. Sync and run
 
-## ✨ Features
+## Security Notes
+This type of application requires careful handling of location data and remote commands. Proper authentication and permission management are essential.
 
-- 📍 Real-time GPS location tracking  
-- 🗺️ Live map view of device location  
-- 🔔 Remote alarm trigger (ring device even on silent)  
-- 🔒 Remote device lock (anti-theft protection)  
-- 📸 Optional front camera capture on unauthorized access  
-- 📡 Location history tracking  
-- ☁️ Cloud synchronization (Firebase)  
-- 🛡️ Secure authentication system  
-
----
-
-## 🛠️ Tech Stack
-
-### Mobile App
-- Android (Kotlin / Java)
-- Jetpack Compose / XML UI
-
-### Backend
-- Firebase (Realtime Database / Firestore)
-- Firebase Authentication
-- Firebase Cloud Messaging (FCM)
-
-### Location Services
-- Google Maps API
-- GPS / Fused Location Provider
-
----
-
-## 🏗️ System Architecture
+## Project Status
+Core features (tracking, remote actions, Firebase integration) are designed and partially implemented. Further polish and testing are ongoing.
